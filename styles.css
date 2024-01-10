@@ -1,0 +1,10 @@
+* {box-sizing: border-box;} 
+
+body {background-color: #FCEBB6; color: #221811; font-family: Tahoma, Arial, sans-serif; background-image: url(images/fadedroad50.jpg);}
+header {background-color: #D2B48C; color: #8C3826; text-align: center; }
+h1 {line-height: 200%;}
+h2 {color: #8C3826;}
+nav {font-weight: bold; text-align: center; text-decoration: none;}
+footer {background-color: #D2B48C; font-size: .60em; font-style: italic; text-align: center;}
+
+#wrapper {background-color: #FEFAEB; margin-left: auto; margin-right: auto; width: 80%;}   
