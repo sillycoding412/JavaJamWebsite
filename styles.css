@@ -1,10 +1,125 @@
-* {box-sizing: border-box;} 
+* {box-sizing: border-box;}
+img {padding-left:10px; padding-right:10px;}
+body {background-image: url(images/fadedroad50.jpg); color:#221811; font-family: Verdana; margin: 0px;}
+header {
+    background-color:#d2b48c; 
+    height: 150px; 
+    background-image: url(images/javajamlogo.jpg); 
+    background-repeat: no-repeat; 
+    margin-bottom: 0px; 
+    padding-bottom: 0px;
+    border-bottom:#fef6c2 solid 5px;
+}
 
-body {background-color: #FCEBB6; color: #221811; font-family: Tahoma, Arial, sans-serif; background-image: url(images/fadedroad50.jpg);}
-header {background-color: #D2B48C; color: #8C3826; text-align: center; }
-h1 {line-height: 200%;}
-h2 {color: #8C3826;}
-nav {font-weight: bold; text-align: center; text-decoration: none;}
-footer {background-color: #D2B48C; font-size: .60em; font-style: italic; text-align: center;}
+h1 {
+    padding-top: 45px; 
+    padding-left: 220px; 
+    font-size: 3em; 
+    margin-top: 0px;
+	margin-bottom: 1em; 
+	padding-top: 1em; 
+	padding-bottom: 1em; 
+	font-size: 2.5em; 
+}
 
-#wrapper {background-color: #FEFAEB; margin-left: auto; margin-right: auto; width: 80%;}   
+h2 {
+    padding-top: 0.5em;
+	padding-right: 0px; 
+	padding-bottom: 0px; 
+	padding-left: 0.5em; 
+	margin-right: 0.5em; 
+}
+
+h2, h3, p, ul, dl {padding-left: 3em; padding-right:2em;}
+h4 {
+    clear: left; 
+    background-color:#d2b48c;
+	font-size: 1.2em;  
+	border-bottom: 1px solid #000000; 
+	padding-bottom: 0px; 
+    padding-left: 3em; 
+    padding-right: 2em;
+}
+
+dt {font-weight: bold;}
+form {padding: 2em;}
+nav {
+    float: left; 
+    text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 10px;
+	width: 200px; 
+    text-decoration: none;
+}
+
+nav a {
+    padding:1em;
+	width:8em; 
+	font-weight:bold;	
+	border-style:none; 
+	border-bottom:#fef6c2 solid 1px; 
+}
+
+nav a:link {text-decoration: none; color:#fef6c2;}
+nav a:hover {text-decoration: none; color:#cc9933;}	
+nav a:visited {text-decoration: none; color:#d2b48c;}
+nav ul {list-style-type: none; padding-left: 2em; padding: 0px; margin: 0px;}
+
+main {
+	background-color:#fef6c2; 
+	margin-top: 0px;
+    margin-left: 200px; 
+	padding-top: 0px; 
+    padding-bottom: 1em; 
+    padding-left: 3em;
+    padding-right: 2em;
+	font-size: 90%; 
+}
+
+label {
+	float: left;
+	text-align: right; 
+	width: 8em; 
+	padding-right: 1em; 
+}
+
+footer {
+    background-color:#d2b48c;
+	font-size: 0.6em;
+	font-style: italic;
+	text-align: center; 
+	border-top: 2px solid #221811;
+    padding-bottom :10px; 
+}
+
+.details {padding-left: 20%; padding-right: 20%; overflow: auto;}
+.floatleft {float: left; padding-right:20px; padding-bottom: 20px;}
+
+#wrapper {
+    background-color:#231814;
+    min-width: 900px;
+	max-width: 1280px; 
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 2px 2px 2px; 
+    margin-top: 10px;
+}
+
+#heroroad {
+    background-image: url(images/hero.jpg);
+	background-size: 100%; 
+	height: 250px; 
+}
+
+#heromugs {
+    background-image: url(images/heromugs.jpg);
+	background-size: 100%; 
+	height: 250px; 
+}
+
+#heroguitar {
+    background-image: url(images/heroguitar.jpg);
+	background-size: 100%; 
+	height: 250px; 
+}
